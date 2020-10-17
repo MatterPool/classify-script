@@ -1,11 +1,15 @@
 {
-  "name": "classify-script",
+  "name": "@matterpool/classify-script",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:MatterPool/classify-script.git",
   "author": "Harrison Beckerich <harry@twetch.com>",
   "license": "MIT",
   "dependencies": {
+    "@twetch/bsvabi": "^0.0.7",
     "bsv": "^1.5.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
   }
 }
