@@ -16,3 +16,7 @@ const classifyScript = require('@matterpool/classify-script');
 const script = new bsv.Script();
 classifyScript(script);
 ```
+
+## Authors
+
+- [@1](https://twetch.app/u/1)
