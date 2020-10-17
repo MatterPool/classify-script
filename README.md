@@ -1,8 +1,8 @@
 # Classify Script
 
-Classifies bitcoin scripts as a specific tag. Examples: payment, data, twetch, 21e8 or boost.
+Classifies bitcoin scripts as a specific tag. Examples: `payment`, `data`, `twetch`, `21e8` or `boost`.
 
-Create a pull request to add more classifications
+Create a pull request to add more classifications, or don't whatever
 
 ## Installation
 
