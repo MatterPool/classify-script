@@ -3,6 +3,7 @@ const isDataOut = require('./lib/is-data-out');
 const is21e8Out = require('./lib/is-21e8-out');
 const isBoostOut = require('./lib/is-boost-out');
 const isTwetchOut = require('./lib/is-twetch-out');
+const isRunOut = require('./lib/is-run-out');
 
 const classify = (script) => {
 	let tag = '';
@@ -13,9 +14,10 @@ const classify = (script) => {
 		tag = 'data';
 
 		const twetch = isTwetchOut(script);
-
 		if (twetch) {
 			tag = twetch;
+		} else if (isRunOut) {
+			tag = 'run';
 		}
 	} else if (is21e8Out(script)) {
 		tag = '21e8';
