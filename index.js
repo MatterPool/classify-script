@@ -5,6 +5,7 @@ const isBoostOut = require('./lib/is-boost-out');
 const isTwetchOut = require('./lib/is-twetch-out');
 const isRunOut = require('./lib/is-run-out');
 const isArkOut = require('./lib/is-ark-out');
+const isEtchedOut = require('./lib/is-etched-out');
 
 const classify = (script) => {
 	let tag = '';
@@ -26,6 +27,8 @@ const classify = (script) => {
 		tag = 'boost';
 	} else if (isArkOut(script)) {
 		tag = 'ark.page'
+	} else if (isEtchedOut(script)) {
+		tag = 'etched.page';
 	}
 
 	return tag;
