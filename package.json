@@ -5,11 +5,15 @@
   "repository": "git@github.com:MatterPool/classify-script.git",
   "author": "Harrison Beckerich <harry@twetch.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest tests"
+  },
   "dependencies": {
     "@twetch/bsvabi": "^0.0.7",
     "bsv": "^1.5.4"
   },
   "devDependencies": {
+    "jest": "^26.6.3",
     "prettier": "^2.1.2"
   }
 }
