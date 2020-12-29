@@ -20,15 +20,15 @@ const classify = (script) => {
 			tag = twetch;
 		} else if (isRunOut(script)) {
 			tag = 'run';
+		} else if (isArkOut(script)) {
+			tag = 'ark.page';
+		} else if (isEtchedOut(script)) {
+			tag = 'etched.page';
 		}
 	} else if (is21e8Out(script)) {
 		tag = '21e8';
 	} else if (isBoostOut(script)) {
 		tag = 'boost';
-	} else if (isArkOut(script)) {
-		tag = 'ark.page'
-	} else if (isEtchedOut(script)) {
-		tag = 'etched.page';
 	}
 
 	return tag;
