@@ -19,7 +19,7 @@ const classify = (script) => {
 		if (twetch) {
 			tag = twetch;
 		} else if (isRunOut(script)) {
-			tag = 'run';
+			tag = isRunOut(script);
 		} else if (isArkOut(script)) {
 			tag = 'ark.page';
 		} else if (isEtchedOut(script)) {
