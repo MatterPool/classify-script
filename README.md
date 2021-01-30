@@ -17,6 +17,9 @@ const script = new bsv.Script();
 classifyScript(script);
 ```
 
-## Authors
+## Contributors
 
-- [@1](https://twetch.app/u/1)
+- [@1](https://twetch.app/u/1) 
+- [@40](https://twetch.app/u/40)
+- [@145](https://twetch.app/u/145)
+- [@786](https://twetch.app/u/786)
